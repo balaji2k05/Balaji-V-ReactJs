@@ -1,0 +1,19 @@
+import React from 'react';
+function comp()
+{
+ const name1=("Balaji");
+ const name2=("Balaji");
+ console.log(name1 === name2);
+ const object1={name:"Balaji"};
+ const object2={name:"Balaji"};
+ console.log(object1 === object2);
+}
+const react1=()=>{
+  return(
+    <div>
+
+     <button onClick={comp}>Click</button>
+    </div>
+  )
+}
+export default react1;
